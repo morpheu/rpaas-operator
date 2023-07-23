@@ -35,6 +35,7 @@ func NewApp(o, e io.Writer, client rpaasclient.Client) (app *cli.App) {
 		NewCmdRoutes(),
 		NewCmdInfo(),
 		NewCmdAutoscale(),
+		NewCmdDebug(),
 		NewCmdExec(),
 		NewCmdShell(),
 		NewCmdLogs(),
